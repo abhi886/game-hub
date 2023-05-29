@@ -4,7 +4,7 @@ import { FetchResponse } from "../services/api-client";
 import { Genre } from "../Entities/Genre";
 import ms from "ms";
 import useGameQueryStore from "../store";
-import { Game } from "../Entities/Game";
+import Game from "../Entities/Game";
 
 const apiClient = new APIClient<Game>("/games");
 
