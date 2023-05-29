@@ -1,7 +1,7 @@
 import { Box, Button, SimpleGrid, Spinner, Text } from "@chakra-ui/react";
 import React from "react";
 import useGames from "../hooks/useGames";
-import { Genre } from "../hooks/useGenres";
+import { Genre } from "../Entities/Genre";
 import GameCard from "./GameCard";
 import GameCardContainer from "./GameCardContainer";
 import GameCardSkeleton from "./GameCardSkeleton";
